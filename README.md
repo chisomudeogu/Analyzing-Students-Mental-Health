@@ -32,6 +32,7 @@ The dataset contains survey responses from international and domestic students. 
 
 ---
 ## 🔍 SQL Query Used
+```sql
 SELECT stay,
        COUNT(*) AS count_int, 
        ROUND(AVG(todep), 2) AS average_phq, 
@@ -41,7 +42,7 @@ FROM students
 WHERE inter_dom = 'Inter'
 GROUP BY stay
 ORDER BY stay DESC;
-
+```
 ---
 ## Results
 | stay | count_int | average_phq | average_scs | average_as |
