@@ -58,29 +58,33 @@ ORDER BY stay DESC;
 | 1    | 95        | 7.48        | 38.11       | 72.80      |
 
 🧠 Insights
-Students staying longer than 6 years showed lower average depression scores but varying levels of stress and social connectedness.
 
-The largest group had just 1–3 years of stay, with higher acculturative stress and moderate social connectedness.
+- Students staying longer than 6 years showed lower average depression scores but varying levels of stress and social connectedness.
 
-A longer stay does not always mean improved mental health, but social connectedness appears to improve with time.
+- The largest group had just 1–3 years of stay, with higher acculturative stress and moderate social connectedness.
+
+- A longer stay does not always mean improved mental health, but social connectedness appears to improve with time.
 
 🚀 Skills Practiced
-Filtering data using WHERE
 
-Aggregating with AVG() and COUNT()
+- Filtering data using WHERE
 
-Using GROUP BY and sorting results
+- Aggregating with AVG() and COUNT()
 
-Applying ROUND() for cleaner output
+- Using GROUP BY and sorting results
 
-Thinking critically about real-world survey data
+- Applying ROUND() for cleaner output
+
+- Thinking critically about real-world survey data
 
 📌 Tools Used
+
 SQL (PostgreSQL)
 
 DataCamp SQL Workspace
 
 📚 Context
+
 Based on a 2018 study conducted by a Japanese international university, which concluded that:
 
 "International students are at greater risk of mental health challenges. Social connectedness and acculturative stress are strong predictors of depression."
@@ -88,6 +92,7 @@ Based on a 2018 study conducted by a Japanese international university, which co
 This project was an effort to validate those findings using structured query language.
 
 ✅ Completed As Part Of:
+
 📍 Analyzing Students' Mental Health
 
 📆 Date: June 2025
